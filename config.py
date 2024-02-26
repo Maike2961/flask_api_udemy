@@ -1,0 +1,9 @@
+DEGUB=True
+
+USERNAME = "root"
+PASSWORD = "Pereira171712"
+SERVER = "localhost"
+DB = 'flask_api'
+
+SQLALCHEMY_DATABASE_URI = f'mysql://{USERNAME}:{PASSWORD}@{SERVER}/{DB}'
+SQLALCHEMY_TRACK_MODIFICATIONS = True
